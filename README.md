@@ -4,3 +4,4 @@ os estilos de arte são parecidos com:
 ![art1](art/art1.png)
 ![art2](art/art2.png)
 ![art3](art/art3.png)
+![art4](art/art4.png)
