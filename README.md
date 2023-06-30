@@ -5,8 +5,6 @@ script que pega uma imagem e transforma no estilo de arte do Jack Rhysider e tra
 
 ![art2](art/art2.jpg)
 
-![art3](art/art3.jpg)
-
-![art4](art/art4.jpg)
+![art3](art/art3.jpg)  ![art4](art/art4.jpg)
 
 mas em ascii
