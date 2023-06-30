@@ -1,3 +1,5 @@
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 from PIL import Image
 
 # Define os caracteres ASCII para diferentes tons de cinza e vermelho
@@ -34,8 +36,10 @@ def convert_image_to_ascii(image_path, width):
     
     return ascii_art
 
-# Solicita o caminho da imagem ao usuário
-image_path = input("Digite o caminho da imagem: ")
+# Cria uma janela para selecionar a imagem
+root = Tk()
+root.withdraw()
+image_path = askopenfilename(title="Selecione a imagem")
 
 # Solicita a largura da imagem ASCII desejada
 width = int(input("Digite a largura desejada (em colunas): "))
